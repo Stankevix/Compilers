@@ -1,0 +1,8 @@
+/*
+	OKLEX02: Teste para aceitacao de identificadores validos
+*/
+
+void main() {
+	
+	int abc_10_ac;
+}

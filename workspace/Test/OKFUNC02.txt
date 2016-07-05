@@ -1,0 +1,53 @@
+
+
+
+int compara(int[100] vet1, int [100] vet2, int tam){
+    int i;
+    
+    i:=0;
+    
+    while(i<tam){
+        if(vet1[1] != vet2[i]){
+            break;
+        }
+        i:=i+1;
+    }
+    return (i=tam);
+}
+
+void main(){
+    int[10] vet1;
+    int[10] vet2;
+    int tam;
+    int i;
+    
+    tam := 0;
+    
+    while(tam = 0 || tam > 10){
+        print("Informe o tamanho dos vetores");
+        tam := readInteger();
+    }
+    
+    print("Leitura de + - / * vetor1\n");
+    i:=0;
+    while(i<tam){
+        vet1[i]:= readInteger();
+        i:=i+1;
+    }
+    
+    print("Leitura de vetor2\n");
+    i:=0;
+    while(i<tam){
+        vet2[i]:= readInteger();
+        i:=i+1;
+    }
+    
+    
+    if(compara(vet1,vet2, tam)){
+        print("Vetores iguais\n");
+    }else{
+        print("Vetores diferente\n");
+    }
+    
+   return; 
+}

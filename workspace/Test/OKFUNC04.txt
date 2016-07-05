@@ -1,0 +1,29 @@
+
+//Comentario sobre o cod
+
+int mostrar () {
+    int i;
+    //Comentario no meio do cod
+    
+    print("Criando teste pois o monitor nao fez");
+    return (i);
+}
+
+void main (){
+
+    //Comentario no meio do cod
+
+    int a;
+    a := 1;
+    
+    //Comentario no meio do cod
+    
+    if(a = 1){
+        a := mostrar();
+    }
+    
+    print("Terminei!");
+    
+    return ;
+
+}

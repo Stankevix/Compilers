@@ -1,0 +1,53 @@
+Testes adicionados: ERRSEM19 até ERRSEM33, ERRSIN01 até ERRSIN03 e 
+OKTESTE01 até OKTESTE08, que substituem os antigos OKLEX, OKSEM, etc.
+
+*Observação: Se encontrar algum erro em teste, pode corrigir conforme
+a gramática e me avisar que eu considero o teste correto na hora da
+correção.
+
+A correção vai funcionar da seguinte maneira:
+
+-Compilação deve funcionar apenas com o comando abaixo, porém, se for
+necessário, compilo o restante das pastas sem problemas.
+
+javac Main.java
+
+*Observação: Alguns alunos entregaram projetos de netbeans, por exemplo.
+Entregue apenas a estrutura simples, com os .java, pedida na descrição do
+projeto.
+
+-Execução deve funcionar com o seguinte comando:
+
+java Main ERRSEM20.txt ERRSEM20.c
+
+-Saída no arquivo deve ser algo como:
+
+java.lang.RuntimeException: Error at line 8: Retorno em funcao declarada void
+	return 0;
+	
+*Observação: A mensagem de erro pode ser como quiser, desde que significativa.
+
+-Em um teste que deve ser aceito, o funcionamento é basicamente o mesmo:
+
+java Main OKTESTE01.txt OKTESTE01.c
+
+-Produz a seguinte saída quando o .c gerado é compilado e executado:
+1 10 12.5 25
+
+*Observação: O arquivo .c vai ser avaliado a partir da compilação e 
+comparação de resultados.
+
+*Observação: Para estas saídas tenha o cuidado de deixar ao menos um
+espaço entre cada elemento que será impresso. Se quiser usar '\n' ou tab
+não tem problema, pois na hora de corrigir vou traduzir tudo para
+espaço, mas ao menos um tipo de espaço é essencial.
+
+*Dica: Os testes individualmente não valem muitos pontos, então, se
+não conseguir implementar alguma funcionalidade, tome cuidado para não
+prejudicar os demais na tentativa de corrigi-la;
+
+*Dica: A maioria dos testes requer declaração de variável, atribuição ou
+print() para funcionar. Não deixe estas funcionalidades com problema,
+pois vai prejudicar a maioria dos testes.
+
+

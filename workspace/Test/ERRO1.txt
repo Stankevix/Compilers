@@ -1,0 +1,13 @@
+//variavel total nao existe no escopo da funcao
+int soma(int n1, int n2){
+	total:=n1+n2;
+	return (total);
+}
+
+void main(){
+	int n1;
+	int n2;
+	int total;
+
+	total:=soma(n1,n2);
+}

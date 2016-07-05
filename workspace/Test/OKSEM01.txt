@@ -1,0 +1,15 @@
+/*
+	OKSEM01: Nomes de variaveis
+*/
+
+void main () {
+
+	int While;
+	int IF;
+	
+	if (IF > While) {
+		print(IF);
+	} else {
+		print(While);
+	}
+}

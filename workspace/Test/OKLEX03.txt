@@ -1,0 +1,38 @@
+/*
+	OKLEX03: Testa a aceitacao de todas as palavras reservadas e alguns
+	aspectos semanticos tambem.
+*/
+
+void main() {
+	
+	int a;
+	int b;
+	char c;
+	double d;
+	
+	int abc_10;
+	double abc_10_abc;
+	
+	a := -100;
+	b := 21;
+	c := '1';
+	d := 25.25;
+	
+	if (a > b) {		
+		p(a);
+	} else {
+		p(b);
+	}
+	
+	while(a != 0) {
+		a := a - 1;
+		if (a = 0) {
+			break;
+		}
+	}
+	
+	c := readChar();
+	d := readDouble();
+	a := readInteger();
+
+}

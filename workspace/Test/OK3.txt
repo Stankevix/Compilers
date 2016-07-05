@@ -1,0 +1,16 @@
+//funcao nao retorna mesmo tipo
+int soma(int n1, int n2){
+	int total;
+	total:=n1+n2;
+	return (total);
+}
+
+void main(){
+	int n1;
+	int n2;
+	int n3;
+	int total;
+
+	total:=soma(n1,n2);
+	total:=soma(n1,n3);
+}

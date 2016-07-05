@@ -1,0 +1,37 @@
+
+//Error: Function and calling Fucntion dont have the same parameter type!
+
+int compara (int [100] vet1 , int [100] vet2 , int tam ) {
+    int i;
+    i := 0;
+    
+    while (i < tam) {
+        if ( vet1 [i] != vet2 [i]) {
+            break;
+        }
+
+        i := i + 1;
+    }
+
+    return (i = tam) ;
+
+}
+
+void main () {
+
+    int [10] vet1 ;
+    int [10] vet2 ;
+    int tam ;
+    int i;
+    char c;
+    tam := 0;
+   
+    if ( compara (c , vet2 , tam ) ) {
+        print (" Vetores iguais \n") ;
+    } else {
+        print (" Vetores diferentes \n") ;
+    }
+
+return ;
+
+}

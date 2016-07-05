@@ -1,0 +1,10 @@
+char soma(){
+	char c;
+	return (c);
+}
+
+void main(){
+	int total;
+	
+	total:=soma();
+}

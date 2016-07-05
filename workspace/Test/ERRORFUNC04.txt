@@ -1,0 +1,22 @@
+
+
+
+void mostrar (int a, int a, int a) {
+    print("Criando teste pois o monitor nao fez");
+}
+
+void main (){
+
+    int a;
+    int b;
+    int c;
+    
+    
+    if(a = 1){
+        mostrar(a,b,c);
+    }
+    print("Terminei!");
+    
+    return ;
+
+}

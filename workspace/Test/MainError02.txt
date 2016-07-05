@@ -1,0 +1,19 @@
+
+
+
+
+void main (int [100] vet1 , int [100] vet2 , int tam ) {
+    int i;
+    i := 0;
+    
+    while (i < tam) {
+        if ( vet1 [i] != vet2 [i]) {
+            break;
+        }
+
+        i := i + 1;
+    }
+
+    return (i = tam) ;
+
+}

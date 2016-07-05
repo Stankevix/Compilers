@@ -1,0 +1,21 @@
+/*
+	OKSEM02: Break associado a while
+*/
+
+void main () {
+
+	int i;
+	int[10] vet;
+	
+	i := 0;
+	while (i < 10) {
+				
+		vet[i] := readInteger();
+		
+		if (vet[i] = 0) {
+			break;
+		}
+		
+		i := i + 1;
+	}
+}

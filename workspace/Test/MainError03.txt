@@ -1,0 +1,16 @@
+void main () {
+    int i;
+    i := 0;
+    
+    return ;
+
+}
+
+
+void main () {
+    int i;
+    i := 0;
+    
+    return ;
+
+}
